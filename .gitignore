@@ -1,0 +1,16 @@
+# Compilation Outputs
+YTLauncher.exe
+*.pdb
+
+# Local isolated browser profile data (CONTAINS PRIVATE LOGIN/SESSION COOKIES!)
+# DO NOT REMOVE - MUST NEVER BE PUSHED TO GITHUB FOR SECURITY REASONS
+music_user_data/
+music_user_data/*
+
+# User settings (contains private video links/playlists)
+settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

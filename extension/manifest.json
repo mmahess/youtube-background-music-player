@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YT Launcher Sync",
+  "version": "1.0",
+  "description": "Syncs playing YouTube video URL and playback position to YT Launcher tray app.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
